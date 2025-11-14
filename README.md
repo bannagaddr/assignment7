@@ -1,16 +1,9 @@
-# React + Vite
+১। JSX হলো একটি জাভাস্ক্রিপ্ট এক্সটেনশন যা HTML-এর মত সিনট্যাক্স ব্যবহার করে React কম্পোনেন্ট লিখতে সাহায্য করে। এর মাধ্যমে সহজে UI তৈরি করা যায়।
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+২। State হলো একটি কম্পোনেন্টের নিজস্ব ডেটা যা কম্পোনেন্টের মধ্যে পরিবর্তন হতে পারে। Props হলো কোন কম্পোনেন্ট থেকে বাইরের কম্পোনেন্টে ডেটা পাঠানোর মাধ্যম, যা পরিবর্তন করা যায় না।
 
-Currently, two official plugins are available:
+৩। useState হুক হলো একটি React হুক যা functional কম্পোনেন্টে state ব্যবহার করতে সাহায্য করে। এটি একটি অ্যারের মাধ্যমে ২টি ডাটা নেই, যেখানে প্রথমটি হলো বর্তমান state এবং দ্বিতীয়টি হলো state আপডেট করার ফাংশন।
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+৪। React-এ state কম্পোনেন্টের মধ্যে শেয়ার করার জন্য সাধারণত Props ব্যবহার করা হয়।
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+৫। React-এ ইভেন্ট হ্যান্ডলিং হয় জাভাস্ক্রিপ্ট ফাংশনের মাধ্যমে। ইভেন্ট অ্যাট্রিবিউট camelCase-এ লেখা হয়, যেমন onClick, onChange।
